@@ -50,8 +50,8 @@ Example:
 --ExternalLibs	
 ---GMS_LIB_DATA_ACCESS
 
-FROM "HERE"(10) TO "THERE"(13) can be use the Visual Studio to stage and commit all the changes to the dll (locally).
-------------------------"HERE"-------------------------------------
+# FROM "HERE"(10) TO "THERE"(13) can be use the Visual Studio to stage and commit all the changes to the dll (locally).
+# ------------------------"HERE"-------------------------------------
 10-When you make changes to your copy of the dll, the git will treat as if it were make on the main project.
 You could use the "git status" command to show the files that had modifications.
 -----------------------------------------------------------------------------------------------
@@ -92,7 +92,7 @@ $ git commit -m"<Comment>"
  1 file changed, 1 insertion(+), 1 deletion(-)
 ----------------------------------------------
 
-------------------------"THERE"-------------------------------------
+# ------------------------"THERE"-------------------------------------
 NOTE: This step can't be done from Visual Studio 2015
 14-At this moment, you will decide if you want to publish/share the modification or just wait until your update policy/agreement expires.
 
